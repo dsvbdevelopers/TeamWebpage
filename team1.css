@@ -1,0 +1,140 @@
+
+body{
+    position:fixed; 
+    background-color: #373030;
+    display:block;
+    align-items: center;
+    justify-content: center;
+    min-height:100vh;
+    padding: 0;
+    margin: 0;
+    
+}
+.navbar navbar-expand-sm navbar-dark bg-dark{
+    background-color:#000000;
+    font-weight: bold;
+    margin: auto 16px;
+    font-size: 25px;
+    
+    
+}
+.navbar .navbar-brand img {
+    height: 100px;
+    margin-right: 8px;
+}
+.logo{
+    border-radius: 30px;
+}
+.navbar .navbar-brand img {
+    height: 100px;
+    margin-right: 8px;
+}
+.Container{
+    margin: 0 auto;
+    border-radius: 30px;
+    position:absolute;
+    display: flex;
+    justify-content: space-around;
+    max-width:fit-content;
+   
+
+}
+.Container .Card{
+    position: relative;
+    cursor:pointer;
+    border-radius: 30px;
+}
+.Container .Card .Face{
+    width: 300px;
+    max-height:auto ;
+    transition: 0.3s;
+    
+}
+p{
+    font-size: 30px;
+}
+img{
+    border-radius: 30px;
+    height: auto;
+}
+.Container .Card .Face.face1{
+    border-radius: 30px;
+    position: relative;
+    background:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    transform: translateY(50px);
+}
+
+h1{
+    color:#ffffff;
+}
+.Container .Card:hover .Face.face1{
+    background: #ffffff;
+    transform: translateY(0);
+}
+.Container .Card .Face.face1 .Content{
+    opacity: 0.9999999;
+    transition: 0.5s;
+
+}
+.Container .Card:hover .Face.face1 .Content{
+    opacity: 1;
+    
+    
+}
+.Container .Card .Face.face1 .Content img{
+    max-width: 100%;
+
+}
+.Container .Card .Face.face1 .Content h3{
+    margin: 20px 20px 20px 0;
+    padding: 0;
+    color:#fff;
+    text-align: center;
+    font-size: 1.5em;
+}
+.Container .Card .Face.face2{
+    
+    position:absolute;
+   
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    box-sizing:content-box;
+    box-shadow: 0 20px 50px #9b9898;
+    transform: translateY(-100px);
+}
+
+
+.Container .Card .Face.face2 .Content p{
+    margin: 0;
+    padding: 0;
+
+}
+.Face.face2{
+    height: 30%;
+    border-radius: 30px;
+}
+p{
+    font-size: 20px;
+}
+.Container .Card .Face.face2 .Content a{
+    margin: 15px 0 0;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: #080808;
+    padding: 5px;
+    border: 1px solid #000000;
+}
+.Container .Card .Face.face2 .Content a:hover{
+    background: #333;
+    color:#fff;
+}
+h1{
+    color: #000000;
+}
